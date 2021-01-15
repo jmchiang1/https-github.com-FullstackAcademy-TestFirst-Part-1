@@ -1,16 +1,14 @@
 describe('the function `hello`', function() {
   it('says hello', function() {
-    expect(hello()).toEqual("hello");
+    expect(hello()).toEqual("FILL_ME_IN");
   });
 
   it('says hello to someone', function() {
-    expect(hello('Fred')).toEqual("fred");
+    expect(hello('Fred')).toEqual("FILL_ME_IN");
   });
 });
 
 describe('the function `add`', function(){
-
-  var returnValue = 0;
 
   beforeEach(function(){
     // re-assign returnValue to 0 before each spec
